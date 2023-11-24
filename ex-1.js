@@ -5,7 +5,7 @@ let isAllow;
 
 // Start coding here
 
-isOver18 = true;
+isOver18 = false;
 hasCriminalBlacklist = false;
 
 isAllow = isOver18 && !hasCriminalBlacklist

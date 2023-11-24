@@ -15,8 +15,8 @@ hasBoughtProductFromITCategory = false;
 hasAttendedDiscountEvent = true;
 isPlatinum = false;
 
-hasPromotion = ((lastMonthPaidMoreThan4000 && isWeekday) &&
-    (!hasBoughtProductFromITCategory && !hasAttendedDiscountEvent)) || isPlatinum;
+hasPromotion = (lastMonthPaidMoreThan4000 && isWeekday &&
+    hasBoughtProductFromITCategory && hasAttendedDiscountEvent) || isPlatinum;
 
 
 
